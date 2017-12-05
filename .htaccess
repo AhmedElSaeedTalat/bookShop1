@@ -1,0 +1,8 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteRule ^mylibrary$ index.php [NC,L]
+RewriteRule ^mylibrary/(.+)$ index.php?url=$1 [NC,L]
+
+
+
